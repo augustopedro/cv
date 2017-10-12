@@ -1,0 +1,197 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[a4paper]{cv-style}
+\setdefaultlanguage{brazil}
+\usepackage{fontawesome}
+\usepackage{marvosym}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue
+}
+
+\begin{document}
+
+\header{Pedro Augusto }{Duarte de Almeida}        % Your name
+%\lastupdated
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+\begin{aside}
+~
+%{\includegraphics[scale=0.27]{img/me2.jpg}}
+%
+\section{Web}
+{\small\faLinkedin\space}\underline{\href{https://linkedin.com/in/peadalmeida}{linkedin.com/in/peadalmeida}}
+{\small\faGithub\space}\underline{\href{https://github.com/augustopedro}{github.com/augustopedro}}
+{\small\faTwitter\space}\underline{\href{https://twitter.com/pedroaugusto}{twitter.com/pedroaugusto}}
+~
+\section{Idiomas}
+\asidelist{\textbf{Português:}}%
+{\includegraphics[scale=0.30]{img/star.png}\includegraphics[scale=0.30]{img/star.png}\includegraphics[scale=0.30]{img/star.png}\includegraphics[scale=0.30]{img/star.png}}
+\asidelist{\textbf{Inglês:}}%
+{\includegraphics[scale=0.30]{img/star.png}\includegraphics[scale=0.30]{img/star.png}\includegraphics[scale=0.30]{img/star.png}\includegraphics[scale=0.30]{img/star_empty.png}}
+~
+\section{Linguagens}
+  C, C\#, Python
+  Shell Script
+  HTML/CSS/JavaScript
+  \LaTeX
+~
+\section{Frameworks}
+  Microsoft .NET
+  Django
+~
+\section{Metodologias}
+  Scrum, Kanban
+~
+\section{Banco de Dados}
+  MySQL, IBM DB2
+  Microsoft SQL Server
+~
+\section{Ferramentas}
+Visual Studio Code
+Sublime Text
+GitHub
+Microsoft Office
+~
+\section{Sistemas Operacionais}
+  Linux
+  Microsoft Windows
+~
+\section{Interesses}
+Análise de Sistemas
+Engenharia de Software
+Gestão de Projetos
+Metodologias Ágeis
+Empreendedorismo
+Ecossistemas de Startups
+~
+\end{aside}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Contato}
+  \centerline{{\Large\WritingHand\space}{Rua Nelson Soares de Faria 57/101, Cidade Nova, Belo Horizonte/MG}}
+  {\vspace{2.9pt}} 
+  \centerline{{\large\faPhone\space}{+55 37 9 8821-4181}\space\faEnvelopeO\space\underline{peadalmeida@gmail.com}}
+  {\vspace{2.9pt}}
+ 
+  \begin{center}
+    \noindent\rule{13cm}{3.0pt}
+  \end{center}
+
+  \section{Experiência}
+
+    \begin{entrylist}
+      \vspace{5pt}
+      \entry
+      {2015 - Atual}
+      {Estagiário em Análise de Sistemas}
+      {Banco Mercantil do Brasil}
+      {Trabalha no setor de Recuperação de Crédito, dando manutenção em código legado e implementando soluções na plataforma .NET com C\#. Paralelamente desenvolve competências como levantamento de requisitos, trabalho em equipe, e gerenciamento de projetos com a prática do Scrum.}
+      \vspace{5pt}
+      \entry
+      {2013 - 2014}
+      {Estudante Pesquisador}
+      {Universidade Federal de Lavras}
+      {Atuou como pesquisador voluntário no projeto de iniciação científica sobre métodos, técnicas e ferramentas para desenvolvimento de software. Durante o projeto teve acesso a ferramentas de medição de software e foi inserido no meio científico, ampliando a noção sobre a ciência e áreas de pesquisa relacionadas à Computação.}
+    \end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Educação}
+  \begin{entrylist}
+\entry
+{2014 - Atual}
+{{\normalfont Bacharelado em} Engenharia de Software}
+{PUC Minas}
+{\vspace{-0.3cm}}
+\entry
+{2011 - 2014}
+{{\normalfont Bacharelado em} Ciência da Computação}
+{UFLA}
+
+%------------------------------------------------
+\end{entrylist}
+
+\section{Certificados}
+\begin{entrylist}
+\entry
+{2016}
+{CPRE Foundation Certification}
+{IREB}
+{Certificado Profissional em Engenharia de Requisitos - Nível Foundation}
+\entry
+{2016}
+{TOEFL ITP Assessment Series}
+{ETS}
+{Certificado de Proficiência em Inglês - Nível B2}
+% \entry
+% {2017}
+% {CTFL Foundation Certification}
+% {International Software Testing Qualifications Board}
+% {Certificado Profissional em Testes de Software - Nível Foundation}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Extracurricular}
+
+  \begin{entrylist}
+    \entry
+    {2017 - Atual}
+    {Estudo do Ecossistema de Startups de Belo Horizonte}
+    {PUC Minas}
+    {Atualmente desenvolve uma pesquisa de caráter exploratório sobre o ecossistema de startups de tecnologia de Belo Horizonte, com o objetivo específico de conhecê-lo melhor para que seja feita uma avaliação do seu momento atual e maturidade.}
+    \entry
+    {2015}
+    {Clicando na Terceira Idade}
+    {PUC Minas}
+    {Voluntário no curso de capacitação em informática da PUC Minas focado na atenção aos idosos. Deu apoio nas aulas de informática e na elaboração do material didático.}
+    \entry
+    {2012}
+    {Robocode: Aprendendo a programar de forma lúdica}
+    {UFLA}
+    {Voluntário no projeto de extensão dando aulas para pessoas da comunidade de Lavras interessadas em aprender programação de computadores, entre elas alunos do ensino médio, graduandos de Ciência da Computação e áreas afins.}
+    
+  \end{entrylist}
+\section{Diversos}
+\tikzset{
+    cercle/.pic={
+      \node [draw, thick, circle, minimum width=10pt] {\tikzpictext};
+    },
+  }
+\hspace*{1mm}
+\begin{minipage}{\linewidth}
+  \begin{tikzpicture}
+%  	\hspace*{20mm}
+  	\pic [pic text={\LARGE \faLaptop}]  {cercle};
+    \node[draw=none] at (0,-0.9) {Tecnologia};
+    \pic [pic text={\LARGE \faLightbulbO}] at (26mm,0) {cercle};
+    \node[draw=none] at (2.6,-0.9) {Inovação};
+    \pic [pic text={\LARGE \faGroup}] at (51mm,0) {cercle};
+    \node[draw=none] at (5.1,-0.9) {Voluntariado}; 
+    \pic [pic text={\LARGE \faRocket}] at (76mm,0) {cercle};
+    \node[draw=none] at (7.6,-0.9) {Ciência};   
+    \pic [pic text={\LARGE \faBicycle}] at (101mm,0) {cercle};
+    \node[draw=none] at (10.1,-0.9) {Ciclismo};
+    \pic [pic text={\LARGE \faGithub}] at (126mm,0) {cercle};
+    \node[draw=none] at (12.6,-0.9) {Open Source};
+  \end{tikzpicture}
+\end{minipage}
+
+%  \vspace{2.1cm}
+%  \begin{flushright}
+%    \emph{Pedro Almeida}
+%  \end{flushright}
+%  \begin{flushright}
+%    \textit{\today}
+%  \end{flushright}
+
+\end{document}
